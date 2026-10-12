@@ -14,8 +14,8 @@
       "newWindow": "新建窗口",
       "openFile": "打开文件…",
       "openFolder": "打开文件夹…",
-      "openRecent": "打开最近",
-      "clearRecentlyUsed": "清除最近使用",
+      "openRecent": "打开最近文件",
+      "clearRecentlyUsed": "清除最近使用记录",
       "save": "保存",
       "saveAs": "另存为…",
       "autoSave": "自动保存",
@@ -226,8 +226,8 @@
     "replacementPlaceholder": "替换",
     "replaceAll": "全部替换",
     "replaceSingle": "单个替换",
-    "invalidRegex": "无效的正则表达式 \"{pattern}\"",
-    "regexMatchEmpty": "正则表达式 \"{pattern}\" 匹配到了空字符串",
+    "invalidRegex": "无效的正则表达式“{pattern}”",
+    "regexMatchEmpty": "正则表达式“{pattern}”匹配到了空字符串",
     "searchResultInfo": "在 {fileCount} 个文件中找到 {matchCount} 个匹配项",
     "searchLimited": "仅搜索前 {count} 个结果"
   },
@@ -272,7 +272,7 @@
     "title": "导出选项",
     "info": {
       "label": "信息",
-      "description": "请自定义页面外观并点击\"导出\"继续。"
+      "description": "请自定义页面外观并点击“导出”继续。"
     },
     "page": {
       "label": "页面",
@@ -293,7 +293,7 @@
     },
     "theme": {
       "label": "主题",
-      "description": "您可以通过选择主题或创建手工制作的主题来更改文档外观。",
+      "description": "您可以通过选择主题或创建自定义主题来更改文档外观。",
       "theme": "主题"
     },
     "headerFooter": {
@@ -353,7 +353,7 @@
   },
   "import": {
     "title": "导入或打开",
-    "description": "拖放到这里将您的内容导入 MarkText"
+    "description": "将内容拖放到此处即可导入 MarkText"
   },
   "preferences": {
     "title": "偏好设置",
@@ -498,7 +498,7 @@
         "showOpenedFiles": "显示已打开文件",
         "autoReveal": "在侧边栏中定位当前文件",
         "excludePatterns": "排除模式",
-        "excludePatternsNotes": "排除模式（注释）",
+        "excludePatternsNotes": "排除模式（备注）",
         "fileSortBy": {
           "title": "文件排序方式",
           "creationTime": "创建时间",
@@ -586,7 +586,7 @@
         "hideLinkPopup": "隐藏链接弹出窗口",
         "autoCheck": "自动检查",
         "autoNormalizeLineEndings": "打开时自动将行尾规范化为 LF",
-        "wrapCodeBlocks": "换行代码块",
+        "wrapCodeBlocks": "代码块自动换行",
         "sourceCodeLineNumbers": "在源码模式中显示行号"
       }
     },
@@ -768,7 +768,7 @@
   },
   "about": {
     "copyright": "Copyright © Luo Ran 2017-{year}",
-    "copyrightContributors": "版权贡献者"
+    "copyrightContributors": "由 GitHub 贡献者用 ❤️ 制作"
   },
   "commands": {
     "mt": {
@@ -963,7 +963,7 @@
       "errorLoadingTabMessage": "加载文件变更时发生错误，因为找不到该标签页。",
       "mixedLineEndingsNormalized": "“{name}” 含有混合换行符，已自动规范化为 {lineEnding}。",
       "imageDeletionUrlTitle": "图片删除链接",
-      "imageDeletionUrlMessage": "点击将已上传图片的删除链接复制到剪贴板 ({url})。",
+      "imageDeletionUrlMessage": "点击复制已上传图片的删除链接到剪贴板（{url}）。",
       "errorWhileSaving": "保存时发生错误：{msg}",
       "exportSuccessTitle": "导出成功",
       "exportSuccessMessage": "已成功导出“{name}”！",
@@ -1010,12 +1010,12 @@
       "failed": "{type} 导出失败"
     },
     "print": {
-      "error": "打印 \"{title}\" 时出错",
+      "error": "打印“{title}”时出错",
       "failed": "打印失败"
     },
     "spellcheck": {
       "title": "拼写检查",
-      "disabledError": "拼写检查已禁用错误",
+      "disabledError": "拼写检查已禁用",
       "errorSwitchingLanguage": "切换拼写检查语言时出错 {languageCode}",
       "languageMissing": "拼写检查语言缺失 {languageCode}",
       "switchError": "{languageCode} 拼写检查切换错误，{error}"
